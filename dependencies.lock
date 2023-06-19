@@ -1,0 +1,27 @@
+dependencies:
+  espressif/esp_encrypted_img:
+    component_hash: f4ecbedae038527ff252a96336cc848cb1eb231838cd9a9377acadff33e3c493
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 2.0.3
+  espressif/esp_secure_cert_mgr:
+    component_hash: 0a7b7f1c26fbd6fd8f49cc90f39203e3ab9cf334bbbf288bede9db745c35892c
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 2.3.1
+  espressif/led_strip:
+    component_hash: a7d4d67931d61dd2b6f27e681e2e6df45fa70eb0de9b422178930330b2dc1846
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.1.0-alpha
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 4.4.4
+manifest_hash: 58927c22e462be151380b2e6cf8c5aa90cd5330dc62b71971143bebfab630b45
+target: esp32s3
+version: 1.0.0
